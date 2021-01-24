@@ -11,9 +11,15 @@ a{
   color: white;
   margin: 0;
 }
+.left-column{
+  width: 75%;
+}
+top-section{
+ background-color: rgba(0,0,0,.1);
+}
 
 .nav-links{
-  width: 50%;
+  width: 100%;
   background-color:rgb(179, 9, 179);
   display: flex;
   justify-content: space-around;
@@ -25,6 +31,7 @@ a{
 main{
   width: 90vw;
   margin: 1.5rem auto;
+  
   background-color:rgb(179, 9, 179);
   display: flex;
   justify-content: space-between;
@@ -33,6 +40,10 @@ main{
   color:white;
   font-size: 3rem;
   display: none;
+}
+
+footer{
+  background-color:rgb(179, 9, 179);
 }
 
 @media screen and (max-width: 1200px) {
@@ -49,8 +60,9 @@ main{
   .hamburger {
     display: block;
   }
-  
+
+  .right-column{
+  width: 20%;
 }
-footer{
-  background-color:rgb(179, 9, 179);
+  
 }
